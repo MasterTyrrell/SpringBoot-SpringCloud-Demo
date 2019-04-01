@@ -8,4 +8,33 @@
   <groupId>com.alan</groupId>
   <artifactId>12-spring-boot-springmvc-mybatis</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <dependencies>
+   <!-- springboot启动器 -->
+	<dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <!-- web启动器 -->
+    <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <!-- mybatis启动器 -->
+    <dependency>
+	    <groupId>org.mybatis.spring.boot</groupId>
+	    <artifactId>mybatis-spring-boot-starter</artifactId>
+	    <version>1.3.2</version>
+	</dependency>
+	<!-- mysql数据库驱动 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+	<!-- druid数据库连接池 -->
+		<dependency>
+		    <groupId>com.alibaba</groupId>
+		    <artifactId>druid</artifactId>
+		    <version>1.1.10</version>
+		</dependency>
+    </dependencies>
 </project>
