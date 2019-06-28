@@ -1,0 +1,4 @@
+com\alan\springboot\ExportConfigur.class
+com\alan\springboot\App.class
+com\alan\springboot\MyHealthIndicator.class
+com\alan\springboot\UserController.class
